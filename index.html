@@ -1,132 +1,31 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Trang cá nhân</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body, html {
-            height: 100%;
-            overflow-x: hidden;
-            color: black;
-        }
-
-        /* Video nền */
-        .video-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-        }
-
-        /* Lớp phủ mờ */
-        .overlay {
-            min-height: 100vh;
-            background: rgba(0, 0, 0, 0.45);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40px 20px;
-        }
-
-        header {
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 18px;
-            opacity: 0.85;
-        }
-
-        /* Thẻ thông tin cá nhân */
-        .profile-card {
-            background: rgba(0, 80, 200, 0.12);
-            backdrop-filter: blur(8px);
-            border-radius: 20px;
-            padding: 25px 30px;
-            display: flex;
-            align-items: center;
-            gap: 25px;
-            max-width: 600px;
-            width: 100%;
-            margin-bottom: 35px;
-        }
-
-        .profile-card img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid rgba(255,255,255,0.6);
-        }
-
-        .profile-info h2 {
-            font-size: 26px;
-            margin-bottom: 10px;
-        }
-
-        .profile-info p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        /* Thẻ nhạc */
-        .music-card {
-            background: rgba(255, 255, 255, 0.12);
-            backdrop-filter: blur(8px);
-            border-radius: 20px;
-            padding: 25px 30px;
-            max-width: 700px;
-            width: 100%;
-        }
-
-        .music-card h3 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        .music-card iframe {
-            border-radius: 12px;
-            margin-bottom: 15px;
-        }
-
-        footer {
-            margin-top: 40px;
-            font-size: 14px;
-            opacity: 0.7;
-        }
-    </style>
+    <title>Giới thiệu bản thân</title>
 </head>
-<body>
-
-    <div class="overlay">
-        <header>
-            <h1>Trang cá nhân</h1>
-            <p>Giới thiệu bản thân</p>
-        </header>
-
-        <!-- Thông tin cá nhân -->
-        <div class="profile-card">
-             <img src="images/quocanh.jpg" alt="Ảnh đại diện">
-            <div class="profile-info">
-                <h2>Nguyễn Quốc Anh</h2>
-                <p>Sở thích: Nuôi cá, xem phim, nghe nhạc </p>
-            </div>
-        </div>
+<body bgcolor="gray">
+    <center>
+        <font size="5">
+            <h1>GIỚI THIỆU BẢN THÂN</h1>
+        </font>
+    </center>
+    
+    <!-- Ảnh góc trên bên trái -->
+    <img src="quocanh.jpg" width="150" align="left">
+    
+    <center>
+        <font size="5">
+            <p><b>Họ và tên:</b> Nguyễn Quốc Anh</p>
+            <p><b>Sinh ngày:</b> 26/08/2008</p>
+            <p><b>Học sinh trường:</b> THPT Dương Xá</p>
+            <p><b>Sở thích:</b></p>
+            <ul>
+                <li>Xem phim: review phim</li>
+                <li>Nghe nhạc: nhạc TikTok</li>
+                <li>Lướt Facebook</li>
+            </ul>
+        </font>
+    </center>
+    
+</body>
+</html>
